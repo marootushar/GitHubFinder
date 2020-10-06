@@ -15,4 +15,4 @@ RepoItem.propTypes = {
   repo: PropTypes.object.isRequired,
 };
 
-export default RepoItem
+export default RepoItem;
