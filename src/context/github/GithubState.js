@@ -10,13 +10,12 @@ import {
   GET_REPOS,
 } from "../types";
 
-const GithubState = (props) => {
+const GithubState = props => {
   const initialState = {
     users: [],
     user: {},
     repos: [],
     loading: false,
-    alert: null,
   };
 
   const [state, dispatch] = useReducer(GithubReducer, initialState);
